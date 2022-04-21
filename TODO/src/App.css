@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+body{
+  text-align: center;
+  background-color: bisque;
+}
+.Card{
+  align-self: center;
+  text-align: center;
+  margin:auto;
+  width: 30rem;
+  background-color: gray;
+  /*padding:1rem 1rem 1rem 1rem;*/
+}
+button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-bottom:1rem;
+}
+button {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+h2{
+  text-align:center;
+  color:black;
+}
+#portal .container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+.container .modal {
+  z-index: 1;
+  width: 50rem;
+  height: 20rem;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  position: relative;
+  animation: animate 0.3s;
+}
+.diffbtn{
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  padding: 8px 11px;
+  background: white;
+  color: black;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.diffbtn:hover{
+  background-color: red;
+}
+@keyframes animate {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.inputbox{
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  margin-bottom:1rem;
+}
